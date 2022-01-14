@@ -1,0 +1,22 @@
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 80px;
+}
+/* header style */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* anchor tags */
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin:10px;
+    font-size: 17px;
+    
+    
+}
