@@ -1,7 +1,11 @@
 
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
+   
+}
+header,main{
     margin: 80px;
+
 }
 /* header style */
 header{
@@ -20,3 +24,164 @@ header nav a{
     
     
 }
+/* section */
+section{
+    margin-bottom: 70px;
+}
+
+/* 1st section */
+
+.flexible-sec{
+    margin-top: 40px;
+    display: flex;
+}
+
+.preebooking-button{
+    text-decoration: none;
+    background-color:rgba(224, 44, 109, 1);
+    color: white;
+    padding:10px 25px;
+    font-size: 15px;
+    border-radius: 40px;
+    position: absolute;
+}
+.arrow{
+    margin-left: 15px;
+}
+
+.preebooking-button:hover{
+    background-color: turquoise;
+    font-weight: 900;
+    transition: transform .3s ease-out;
+    transform:scale(1.2);
+}
+
+/* 2nd section */
+
+.sponsors{
+    display: flex;
+    height: 90px;
+    box-shadow: 1px 1px 3px 3px rgb(223, 238, 252);
+}
+.sponsors div{
+    margin: 40px;
+
+}
+
+/*-----3rd section *-----/
+
+    /*rating related styling*/
+.rating{
+    color:orange;
+    font-size:7px;
+
+}
+.font-black{
+    font-size:15px;
+    font-weight: 800;
+    color: gray;
+}
+/* commercial related style  */
+
+.center-text{
+    text-align: center;
+}
+.commercials {
+    display: grid;
+    grid-template-columns: repeat(3,1.3fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.commercial{
+    width: 300px;
+    height: 430px;
+    text-align:left;
+    
+    line-height: 8px;
+    box-shadow: 1px 1px 2px 2px rgb(207, 193, 193);
+    border-radius: 5px;
+    padding: 10px;
+}
+.see-more{
+    position: relative;
+    right: -150px;
+    bottom: -30px;
+    
+    color:rgba(224, 44, 109, 1);
+    font-weight: 900;
+}
+
+/*----------- 4th section styling----------- */
+.frame{
+    width: 400px;
+    height: 250px;
+    margin: 90px;
+    
+    border-radius: 10px;
+    position: relative;
+
+}
+.photo img{
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.photo-detail{
+    position:absolute;
+    top: 0%;
+    
+    display: none;
+    
+    
+}
+
+
+.frame:hover .photo-detail{
+    display: block;
+    background-color:rgba(224, 44, 110, 0.5) ;
+    width: 400px;
+    height: 250px;
+    font-weight: bolder;
+    border-radius:10px;
+    
+    transform: scale(1.2);
+    
+}
+.photo-included{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.frame:hover .photo{
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.2);
+}
+.login-button{
+    position: relative;
+    right: -500px;
+    bottom: -10px;
+    
+    
+}
+/* footer items styling */
+footer{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(9, 9, 54);
+    color: white;
+}
+.last-item{
+   position: relative;
+   right: -500px;
+   margin-top: 30px;
+   padding: 10px;
+   
+
+}
+.fab{
+    margin:5px;
+    font-size: 15px;
+}
+
